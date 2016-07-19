@@ -1,17 +1,37 @@
-div{
-  height: 100px;
+header {
+  border: 1px solid black;
+}
+h1 {
+  margin-left: 75px;
+}
+.articles {
+  margin: 0 auto;
   border: 1px solid #000;
-  margin-bottom: 10px;
   text-align: center;
-  width: 30%;
+  width: 100%;
+}
+.half {
+  width: 50%;
+  border: 1px solid #000;
+  height:300px;
+  float:right;
+}
+.navigation {
+  width: 100px;
+}
+.half-one, .half-three {
+}
+.half-two, .half-four {
+}
+.full {
+  border: 1px solid black;
 }
 
 p {
   font-family: Helvetica;
 }
-
-.half {
-}
-
-.full{
+@media (max-width: 800px) {
+  .half {
+    width: 100%;
+  }
 }
